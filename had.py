@@ -68,7 +68,7 @@ while running:
             green_coin_spawn_time = pygame.time.get_ticks()  
             green_coin_timer = 0
 
-    screen.fill("pink")
+    screen.fill("white")
     screen.blit(player_surf, player_rect)
     screen.blit(coin_surf, coin_rect)
 
